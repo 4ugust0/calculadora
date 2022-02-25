@@ -25,6 +25,7 @@ export const ContainerButtons = styled.div`
 
 export const Display =  styled.div`
     width: 100%;
+    height: 2.5rem;
     padding: 0.20rem;
     box-shadow: ${({theme: {boxShadow}}) => boxShadow.main};
     border-radius: ${({theme: {borderRadius}}) => borderRadius.main};
